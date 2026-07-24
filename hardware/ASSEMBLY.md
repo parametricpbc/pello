@@ -150,7 +150,7 @@ See the [top-level README](../README.md) for full software bring-up.
 
 - Power the board from an external DC source (~7.4V @ 5A) and connect it to the host via USB-C.
 - **Assign each servo an ID** with
-  [`feetech_servo_changeid.py`](../Uarm_teleop/Feetech_servo/feetech_servo_changeid.py) — the
+  [`feetech_servo_changeid.py`](../software/servo_tools/feetech_servo_changeid.py) — the
   servos are all daisy-chained, so:
   - Fresh servos ship with the same default ID; assign IDs *before* wiring the full chain if
     possible.
@@ -167,8 +167,8 @@ See the [top-level README](../README.md) for full software bring-up.
   - Run `python feetech_servo_changeid.py <id>` and confirm it prints `Succeed to set id: <id>`.
   - Label each servo with its ID before moving to the next, so they don't get mixed up.
   - Once all 7 are set, wire the full chain and use
-    [`feetech_gui.py`](../Uarm_teleop/Feetech_servo/feetech_gui.py) (or
-    [`feetech_scan.py`](../Uarm_teleop/Feetech_servo/feetech_scan.py)) to confirm IDs 0–6 all
+    [`feetech_gui.py`](../software/servo_tools/feetech_gui.py) (or
+    [`feetech_scan.py`](../software/servo_tools/feetech_scan.py)) to confirm IDs 0–6 all
     respond and none are still on the factory default.
   - If reusing a servo pulled from another arm, double-check its old ID first — it can collide
     with the new chain.

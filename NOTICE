@@ -1,0 +1,45 @@
+Parametric GELLO
+Copyright 2026 Parametric PBC
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+It incorporates or is derived from the third-party open-source projects listed
+below. Each retains its own copyright and license terms.
+
+================================================================================
+1. LeRobot-Anything-U-Arm — MINT-SJTU
+   https://github.com/MINT-SJTU/LeRobot-Anything-U-Arm
+   License: Apache License 2.0 (as declared by the upstream project).
+   Citation: Zou et al., arXiv:2509.02437.
+
+   The teleoperation software here — Feetech servo drivers and the follower-arm
+   integration — is derived from this project. Modifications made by Parametric PBC
+   (Apache-2.0 sec. 4(b)):
+     - Added a Feetech WebSocket GUI with a Three.js 3D arm viewer.
+     - Added dual-arm YAM / SO-100 teleoperation.
+     - Adapted serial-port configuration for macOS.
+     - Changed servo IDs to 0-indexed.
+
+================================================================================
+2. GELLO: A General, Low-Cost, and Intuitive Teleoperation Framework for
+   Robot Manipulators
+   Philipp Wu, Yide Shentu, Zhongke Yi, Xingyu Lin, Pieter Abbeel
+   https://github.com/wuphilipp/gello_mechanical
+   License: MIT.
+
+   The physical leader-arm concept is inspired by GELLO. If you use this work,
+   please cite:
+
+     @misc{wu2023gello,
+       title  = {GELLO: A General, Low-Cost, and Intuitive Teleoperation
+                 Framework for Robot Manipulators},
+       author = {Philipp Wu and Yide Shentu and Zhongke Yi and
+                 Xingyu Lin and Pieter Abbeel},
+       year   = {2023}
+     }
+
+================================================================================
+3. Feetech SCServo SDK
+   Bundled at: Uarm_teleop/Feetech_servo/scservo_sdk/
+   Vendor reference SDK for Feetech STS/SCS bus servos, redistributed as-is
+   under its original terms.
+================================================================================
