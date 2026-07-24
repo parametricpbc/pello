@@ -18,8 +18,8 @@ and the YAM followers mirror your motion in real time via
 | Path | Contents |
 |------|----------|
 | [`hardware/`](hardware/) | Bill of materials, 3D-print file, and assembly instructions |
-| [`software/servo_tools/`](software/servo_tools/) | Servo GUI, bus scanner, and ID-assignment tools |
-| [`software/lerobot/`](software/lerobot/) | Drive an i2rt YAM follower from the leaders via LeRobot |
+| [`Uarm_teleop/Feetech_servo/`](Uarm_teleop/Feetech_servo/) | Servo GUI, bus scanner, and ID-assignment tools |
+| [`Follower_Arm/LeRobot/`](Follower_Arm/LeRobot/) | Drive an i2rt YAM follower from the leaders via LeRobot |
 
 ## Build a set
 
@@ -43,14 +43,14 @@ ls /dev/cu.usbmodem*   # macOS
 ls /dev/ttyUSB*        # Linux
 ```
 
-Update the port strings in `software/servo_tools/feetech_gui.py` (top of file) and
-`software/lerobot/so100/dual_uarm_yam_teleop.py`.
+Update the port strings in `Uarm_teleop/Feetech_servo/feetech_gui.py` (top of file) and
+`Follower_Arm/LeRobot/so100/dual_uarm_yam_teleop.py`.
 
 **3. Assign servo IDs** (fresh servos all ship with the same default ID). With **one servo
 connected to the bus at a time**, assign each an ID from **0 (base) to 6 (gripper/trigger)**:
 
 ```bash
-cd software/servo_tools
+cd Uarm_teleop/Feetech_servo
 python3 feetech_servo_changeid.py 0   # then 1, 2, … 6, one servo at a time
 ```
 
@@ -71,11 +71,11 @@ can also confirm the bus with `python3 feetech_scan.py`.
 interface):
 
 ```bash
-cd ../lerobot/so100
+cd ../../Follower_Arm/LeRobot/so100
 python3 dual_uarm_yam_teleop.py
 ```
 
-See [`software/lerobot/README.md`](software/lerobot/README.md) for the LeRobot setup.
+See [`Follower_Arm/LeRobot/README.md`](Follower_Arm/LeRobot/README.md) for the LeRobot setup.
 
 ## Hardware notes
 
@@ -83,7 +83,7 @@ See [`software/lerobot/README.md`](software/lerobot/README.md) for the LeRobot s
   assembly, so the joints are freely back-drivable. The servos sense position; they don't
   drive the arm (there is no active gravity compensation).
 - **Servo IDs:** 0–6 per arm, stored in each servo's EEPROM. Re-assign with
-  `software/servo_tools/feetech_servo_changeid.py`.
+  `Uarm_teleop/Feetech_servo/feetech_servo_changeid.py`.
 - **Zero calibration:** captured live at startup — put the arms in their home pose before
   starting, or press **H** in the GUI to re-zero.
 

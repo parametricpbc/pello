@@ -40,11 +40,11 @@ handle, trigger, and hardstops.
 - **Host:** USB-C from the board to your computer.
 - **Assign servo IDs first** — fresh servos all ship with the same default ID. Assign each
   an ID from **0 (base) to 6 (gripper/trigger)** with
-  [`../software/servo_tools/feetech_servo_changeid.py`](../software/servo_tools/feetech_servo_changeid.py),
+  [`../Uarm_teleop/Feetech_servo/feetech_servo_changeid.py`](../Uarm_teleop/Feetech_servo/feetech_servo_changeid.py),
   isolating one servo on the bus at a time (the write broadcasts to every powered servo).
 - **Verify the bus** — once all 7 are set and the chain is wired, run
-  [`feetech_gui.py`](../software/servo_tools/feetech_gui.py) or
-  [`feetech_scan.py`](../software/servo_tools/feetech_scan.py) and confirm IDs 0–6 all
+  [`feetech_gui.py`](../Uarm_teleop/Feetech_servo/feetech_gui.py) or
+  [`feetech_scan.py`](../Uarm_teleop/Feetech_servo/feetech_scan.py) and confirm IDs 0–6 all
   respond with none on the factory default.
 
 Full software setup is in the [top-level README](../README.md).
