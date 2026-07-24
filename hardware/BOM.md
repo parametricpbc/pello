@@ -14,7 +14,7 @@ plus one 2-pack** — cheaper and more reliable than buying singles.
 | 3 | [Serial bus servo driver board — Waveshare, 2-pack](https://www.amazon.com/dp/B0DK79JNNK) | 1 pack (2 boards) | $19.99 |
 | 4 | [Power supply — SHNITPWR 60W universal adjustable](https://www.amazon.com/SHNITPWR-Universal-Adjustable-100V-240V-Converter/dp/B08BL55LMB) | 1 | $18.99 |
 | 5 | [3D-print filament (PETG)](https://us.store.bambulab.com/products/petg-basic?id=703099511296864269) | ~ 800g | $13.83 |
-| 6 | [Rubber bands — Alliance #32, ~700/bag](https://www.amazon.com/Alliance-26324-Advantage-Contains-Approx/dp/B00A27PFOC) (gripper return) | 1 bag | $14.99 |
+| 6 | [Rubber bands — Alliance #32, ~700/bag](https://www.amazon.com/Alliance-26324-Advantage-Contains-Approx/dp/B00A27PFOC) | 1 bag | $14.99 |
 | | **Total (one leader set / 2 arms)** | | **$389.15** |
 
 **Servo count:** 14 total = 2 arms × 7 servos (IDs 0–6 per arm). Two 6-packs + one 2-pack =
