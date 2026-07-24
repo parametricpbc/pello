@@ -30,7 +30,7 @@ handle, trigger, and hardstops.
 - **Step 2 — Join the groups** into a full arm, then press-fit the assembly into the base (do this after
   wiring for easier cable routing).
 - **Step 3 — Wire** the servos as a daisy chain terminating at the driver board, then connect
-  the board to the host over USB-C. Cables seat one way only.
+  the board to the host over USB-C.
 - **Step 4 — Verify** in software: power the board, assign servo IDs, and confirm
   the bus (see bring-up below).
 
