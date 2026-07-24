@@ -13,7 +13,7 @@ Assembly video (silent). If the player below doesn't load, use the
 
 ## Reference files
 
-- **3D-print file:** [`../hardware/RIGHT+LEFT_GELLO.3mf`](../hardware/RIGHT+LEFT_GELLO.3mf)
+- **3D-print file:** [`../hardware/gello3dp.3mf`](../hardware/gello3dp.3mf)
 - **Bill of materials:** [`../hardware/BOM.md`](../hardware/BOM.md)
 
 ## Overview

@@ -12,8 +12,8 @@ The dominant cost is the 14 servos, ordered as two 6-packs plus one 2-pack.
 
 ## 3D printing
 
-Print [`RIGHT+LEFT_GELLO.3mf`](RIGHT+LEFT_GELLO.3mf) — both arms' parts laid out on a
-single plate. Printed in **PETG**. This covers all structural parts: base, L1–L5 linkages,
+Print [`gello3dp.3mf`](gello3dp.3mf) — one arm's parts per plate (two plates for a
+bimanual set). Printed in **PETG**. This covers all structural parts: base, L1–L5 linkages,
 handle, trigger, and hardstops.
 
 ## Assembly
