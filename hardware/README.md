@@ -24,20 +24,19 @@ handle, trigger, and hardstops.
 > as **BIG** and **SMALL**.
 
 - **Step 0 — Prep the servos (×7 per arm).** Open each servo, remove the two internal
-  reduction gears (this decouples the motor so the joint is freely back-drivable — the core
-  GELLO principle), reassemble, and mount both servo horns (toothed + non-toothed).
+  reduction gears (this decouples the motor from the drive shaft so the joint is freely back-drivable), reassemble, and mount both servo horns (toothed + non-toothed).
 - **Step 1 — Build the four sub-assemblies:** Group 1 (L1–L3), Group 2 (L4–L5), Group 3
   (handle + trigger), Group 4 (base + driver board).
-- **Step 2 — Join the groups** into a full arm, then press-fit the base servo (do this after
+- **Step 2 — Join the groups** into a full arm, then press-fit the assembly into the base (do this after
   wiring for easier cable routing).
 - **Step 3 — Wire** the servos as a daisy chain terminating at the driver board, then connect
   the board to the host over USB-C. Cables seat one way only.
-- **Step 4 — Verify** in software: power the board (~7.4V @ 5A), assign servo IDs, and confirm
+- **Step 4 — Verify** in software: power the board, assign servo IDs, and confirm
   the bus (see bring-up below).
 
 ## Electronics & bring-up
 
-- **Power:** ~7.4V @ 5A to the servo driver board.
+- **Power:** ~7.4V @ 5A external DC to the servo driver board.
 - **Host:** USB-C from the board to your computer.
 - **Assign servo IDs first** — fresh servos all ship with the same default ID. Assign each
   an ID from **0 (base) to 6 (gripper/trigger)** with
