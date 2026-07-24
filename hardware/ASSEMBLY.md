@@ -6,15 +6,14 @@ sizes are referenced throughout as **BIG** and **SMALL** (both take the Philips 
 
 ## Video
 
-Assembly video (silent). If the player below doesn't load, use the
-[direct link](assembly/IMG_6247.mp4).
+▶ **Assembly video** (21s, silent) — click the image to play:
 
-<video src="https://github.com/parametricpbc/pello/raw/main/docs/assembly/IMG_6247.mp4" controls muted width="640"></video>
+[![Watch the assembly video](assembly/img/video-poster.png)](assembly/IMG_6247.mp4)
 
 ## Reference files
 
-- **3D-print file:** [`../hardware/gello3dp.3mf`](../hardware/gello3dp.3mf)
-- **Bill of materials:** [`../hardware/BOM.md`](../hardware/BOM.md)
+- **3D-print file:** [`gello3dp.3mf`](gello3dp.3mf)
+- **Bill of materials:** [`BOM.md`](BOM.md)
 
 ## Overview
 

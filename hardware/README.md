@@ -19,7 +19,7 @@ handle, trigger, and hardstops.
 ## Assembly
 
 > The full illustrated step-by-step — with photos for every group — is in
-> **[`docs/ASSEMBLY.md`](../docs/ASSEMBLY.md)**. The outline below is a summary and follows
+> **[`ASSEMBLY.md`](ASSEMBLY.md)**. The outline below is a summary and follows
 > that SOP's numbering. Recommend an electric screwdriver; two screw sizes are referred to
 > as **BIG** and **SMALL**.
 
