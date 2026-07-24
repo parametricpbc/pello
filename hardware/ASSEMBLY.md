@@ -173,7 +173,4 @@ See the [top-level README](../README.md) for full software bring-up.
   - If reusing a servo pulled from another arm, double-check its old ID first — it can collide
     with the new chain.
 
----
 
-*Mirrored from Parametric's internal Notion assembly SOP. Images are committed under
-[`assembly/img/`](assembly/img/).*
