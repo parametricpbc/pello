@@ -8,8 +8,6 @@ sizes are referenced throughout as **BIG** and **SMALL** (both take the Philips 
 
 https://github.com/user-attachments/assets/ba1ab702-1f16-41f2-8c47-cd73d0e13316
 
-_(Fallback if the player doesn't load: [download the clip](assembly/IMG_6247.mp4).)_
-
 ## Reference files
 
 - **3D-print file:** [`gello3dp.3mf`](gello3dp.3mf)
