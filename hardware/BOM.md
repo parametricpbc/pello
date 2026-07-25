@@ -12,7 +12,7 @@ plus one 2-pack** — cheaper and more reliable than buying singles.
 | 1 | [Feetech STS3215 servo — 6-pack](https://www.amazon.com/dp/B0FQHCV9GP) | 2 packs (12 servos) | $269.98 |
 | 2 | [Feetech STS3215 servo — 2-pack](https://www.amazon.com/STS3215-Serial-Magnetic-Programmable-Robotic/dp/B0FVS63YNN) | 1 pack (2 servos) | $45.98 |
 | 3 | [Serial bus servo driver board — Waveshare, 2-pack](https://www.amazon.com/dp/B0DK79JNNK) | 1 pack (2 boards) | $19.99 |
-| 4 | [Power supply — SHNITPWR 60W universal adjustable](https://www.amazon.com/SHNITPWR-Universal-Adjustable-100V-240V-Converter/dp/B08BL55LMB) | 2 power supplies | $18.99 |
+| 4 | [Power supply — SHNITPWR 60W universal adjustable](https://www.amazon.com/SHNITPWR-Universal-Adjustable-100V-240V-Converter/dp/B08BL55LMB) | 2 power supplies | $37.98 |
 | 5 | [Rubber bands — Alliance #32, ~700/bag](https://www.amazon.com/Alliance-26324-Advantage-Contains-Approx/dp/B00A27PFOC) | 1 bag | $14.99 |
 | | **Total (one leader set / 2 arms)** | | **$388.92** |
 
