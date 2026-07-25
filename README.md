@@ -24,7 +24,7 @@ and the YAM followers mirror your motion in real time via
 ## Build a set
 
 1. **Order the parts** — [`hardware/BOM.md`](hardware/BOM.md) (~$389 for a bimanual set, 14 servos).
-2. **Print the frame** — [`hardware/gello3dp.3mf`](hardware/gello3dp.3mf) (one arm on each plate).
+2. **Print the frame** — [`hardware/print/gello3dp.3mf`](hardware/print/gello3dp.3mf) (one arm on each plate).
 3. **Assemble** — follow [`hardware/README.md`](hardware/README.md).
 4. **Bring up the software** — below.
 

@@ -12,14 +12,18 @@ The dominant cost is the 14 servos, ordered as two 6-packs plus one 2-pack.
 
 ## 3D printing
 
-Print [`gello3dp.3mf`](gello3dp.3mf) — one arm's parts per plate (two plates for a
-bimanual set). Printed in **PETG**. This covers all structural parts: base, L1–L5 linkages,
-handle, trigger, and hardstops.
+Print [`print/gello3dp.3mf`](print/gello3dp.3mf) — the master print file, one arm's parts
+per plate (two plates for a bimanual set). Printed in **PETG**. This covers all structural
+parts: base, L1–L5 linkages, handle, trigger, and hardstops.
+
+Individual part STLs are in [`print/stl/`](print/stl/) (`Base`, `Home`, `L1`–`L5`, and
+left/right `Handle` + `Trigger`) if you'd rather arrange your own plates or remix a
+single part.
 
 ## Assembly
 
 > The full illustrated step-by-step — with photos for every group — is in
-> **[`ASSEMBLY.md`](ASSEMBLY.md)**. The outline below is a summary and follows
+> **[`ASSEMBLY.md`](assembly/ASSEMBLY.md)**. The outline below is a summary and follows
 > that SOP's numbering. Recommend an electric screwdriver; two screw sizes are referred to
 > as **BIG** and **SMALL**.
 
