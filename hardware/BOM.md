@@ -40,4 +40,14 @@ already have them, and the ones you'd buy come in bulk packs that last many buil
 > driver board onto the back of the base** instead, mounting it the same way shown in the
 > assembly reference photos. See [`ASSEMBLY.md`](assembly/ASSEMBLY.md) (Step 1, Group 4).
 
+## Tools
+
+Reusable tools for the build — not consumed and not part of the finished arm.
+
+| Tool | For |
+|------|-----|
+| Philips screwdriver (electric recommended) | Driving all the BIG/SMALL screws; also pushing wires into the servo sockets. |
+| Pliers | Freeing the servo top plates in Step 0. |
+| Soldering iron | Installing the M2.5 heat-set inserts — **only if** you use inserts; skip it if you glue the board on instead. |
+
 <!-- Provenance: internal GELLO BOM (Notion) 3a6b7cb7-364f-8033-8293-d405878abf79 -->
