@@ -29,9 +29,12 @@ plus one 2-pack** — cheaper and more reliable than buying singles.
 Commodity items needed to build and run a set, but left out of the cost above — most people
 already have them, and the ones you'd buy come in bulk packs that last many builds.
 
+### Consumables
+
+Used up or installed into the build.
+
 | Item | Qty | For |
 |------|-----|-----|
-| USB-C cable | 2 (1 per arm) | Driver board → host computer. Any data-capable cable. |
 | Super glue | 1 | Gluing the hardstop home onto M1 (Step 2); optionally mounting the board (see below). |
 | Heat-set inserts — M2.5 | 8 (4 per arm) | Mounting the driver board to the base. The board ships with its mounting screws preinstalled, so no extra bolts are needed. |
 | Rubber band — sturdy ~[#32](https://www.amazon.com/Alliance-26324-Advantage-Contains-Approx/dp/B00A27PFOC) | 2 (1 per arm) | Trigger return spring. Only a couple needed per set. |
@@ -40,14 +43,15 @@ already have them, and the ones you'd buy come in bulk packs that last many buil
 > driver board onto the back of the base** instead, mounting it the same way shown in the
 > assembly reference photos. See [`ASSEMBLY.md`](assembly/ASSEMBLY.md) (Step 1, Group 4).
 
-## Tools
+### Tools & other items
 
-Reusable tools for the build — not consumed and not part of the finished arm.
+Reusable — not consumed and not part of the finished arm.
 
-| Tool | For |
-|------|-----|
-| Philips screwdriver (electric recommended) | Driving all the BIG/SMALL screws; also pushing wires into the servo sockets. |
-| Pliers | Freeing the servo top plates in Step 0. |
-| Soldering iron | Installing the M2.5 heat-set inserts — **only if** you use inserts; skip it if you glue the board on instead. |
+| Item | Qty | For |
+|------|-----|-----|
+| Philips screwdriver (electric recommended) | 1 | Driving all the BIG/SMALL screws; also pushing wires into the servo sockets. |
+| Pliers | 1 | Freeing the servo top plates in Step 0. |
+| Soldering iron | 1 | Installing the M2.5 heat-set inserts — **only if** you use inserts; skip it if you glue the board on instead. |
+| USB-C cable | 2 (1 per arm) | Driver board → host computer. Any data-capable cable. |
 
 <!-- Provenance: internal GELLO BOM (Notion) 3a6b7cb7-364f-8033-8293-d405878abf79 -->

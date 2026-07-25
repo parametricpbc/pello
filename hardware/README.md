@@ -51,4 +51,8 @@ single part.
   [`feetech_scan.py`](../Uarm_teleop/Feetech_servo/feetech_scan.py) and confirm IDs 0–6 all
   respond with none on the factory default.
 
+> **Tip — steady the leaders while driving.** You move the arms by hand, so anchor each base
+> so it doesn't shift mid-motion: clamp it to your table edge (a small spring or bar clamp
+> works well), or even to a chair armrest for a seated teleop setup.
+
 Full software setup is in the [top-level README](../README.md).
