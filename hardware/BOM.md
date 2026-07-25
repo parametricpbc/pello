@@ -26,8 +26,7 @@ plus one 2-pack** — cheaper and more reliable than buying singles.
 
 ## Also required (not in the total)
 
-Commodity items needed to build and run a set, but left out of the cost above — most people
-already have them, and the ones you'd buy come in bulk packs that last many builds.
+Commodity consumables items needed to build and run a set, but left out of the cost above.
 
 ### Consumables
 
