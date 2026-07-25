@@ -114,13 +114,14 @@ Each arm builds up as four sub-assemblies:
 
 ![Group 4](img/group4.png)
 
-- Heat-set M3×4×5 inserts into the back of the base (where the board mounts) so they sit
+- Heat-set M2.5 inserts into the back of the base (where the board mounts) so they sit
   flush with the 4 rings.
-- Secure the board to the base with four 6–8 mm M3 bolts into the heat-set inserts.
+- Secure the board with four of the small screws included with the servos, threaded into the
+  heat-set inserts (no extra bolts needed).
 
 > **No soldering iron or heat-set inserts?** You can instead **glue the board directly onto
 > the back of the base** — position it the same way shown in the reference photo above. This
-> skips the inserts and bolts entirely; a dab of super glue (CA) on the mounting pads holds
+> skips the inserts entirely; a dab of super glue on the mounting pads holds
 > it fine.
 
 ## Step 2 — Connect the groups

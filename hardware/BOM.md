@@ -32,12 +32,11 @@ already have them, and the ones you'd buy come in bulk packs that last many buil
 | Item | Qty | For |
 |------|-----|-----|
 | USB-C cable | 2 (one per arm) | Driver board → host computer. Any data-capable cable. |
-| Super glue (cyanoacrylate) | 1 | Gluing the hardstop home onto M1 (Step 2); optionally mounting the board (see below). |
-| Heat-set inserts — M3×4×5 | 8 (4 per arm) | Mounting the driver board to the base. |
-| M3 bolts, 6–8 mm | 8 (4 per arm) | Thread into the heat-set inserts to hold the board. |
+| Super glue | 1 | Gluing the hardstop home onto M1 (Step 2); optionally mounting the board (see below). |
+| Heat-set inserts — M2.5 | 8 (4 per arm) | Mounting the driver board to the base. The board is then secured with the small screws that come with the servos, so no extra bolts are needed. |
 | Rubber band — sturdy ~[#32](https://www.amazon.com/Alliance-26324-Advantage-Contains-Approx/dp/B00A27PFOC) | 1–2 | Trigger return spring. Only a couple needed per set. |
 
-> **No soldering iron?** You can skip the heat-set inserts + M3 bolts entirely and **glue the
+> **No soldering iron?** You can skip the heat-set inserts entirely and **glue the
 > driver board onto the back of the base** instead, mounting it the same way shown in the
 > assembly reference photos. See [`ASSEMBLY.md`](assembly/ASSEMBLY.md) (Step 1, Group 4).
 
